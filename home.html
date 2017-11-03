@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap-switch.js"></script>
+	<script type="text/javascript" src="bootstrap/js/main.js"></script>
+	<script type="text/javascript" src="bootstrap/js/highlight.js"></script>
+</head>
+<body style="background: #ebf1f5;">
+	<!--头部-->
+	<div class="container-fluid main-header text-center">
+		我的主页
+	</div>
+	<div class="home-main">
+		<div class="container">
+			<ul>
+				<li class="tx">头像
+					<img class="pull-right" src="images/icon10.png"/>
+				</li>
+				<li>我的名称
+					<span class="pull-right">
+						秦勤
+					</span>
+				</li>
+				<li>联系方式
+					<span class="pull-right">
+						18645329785
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="home-main" style="margin-top:10px; border-top:1px solid #ddd">
+		<div class="container">
+			<ul>
+				<li>清除缓存
+					<span class="pull-right">
+						2.0MB
+					</span>
+				</li>
+				<li>消息提醒
+					<span class="pull-right" style="margin-top:-5px;">
+						<div class="switch" data-on-label="<i class='icon-ok icon-white'></i>" data-off-label="<i class='icon-remove'></i>">
+						    <input type="checkbox" checked />
+						</div>
+					</span>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container">
+		<button class="btn btn-danger" style="width:100%;margin-top:10px;display: block; background: #ff7043;">退出登录</button>
+	</div>
+
+	<div class="container-fluid footer">
+		<ul>
+			<li class="col-xs-4 text-center"><a href="index.html"><i class="glyphicon glyphicon-home"></i><br/>首页</a></li>
+			<li class="col-xs-4 text-center"><a href="main.html" ><i class="glyphicon glyphicon-th"></i><br/>功能菜单</a></li>
+			<li class="col-xs-4 text-center"><a href="home.html" style="color: #03a9f4;"><i class="glyphicon glyphicon-user"></i><br/>我的主页</a></li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		$.fn.bootstrapSwitch.defaults.size = 'small';
+		$.fn.bootstrapSwitch.defaults.onColor = 'success';
+	</script>
+</body>
+</html>

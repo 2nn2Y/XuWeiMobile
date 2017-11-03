@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>最新通知</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-switch.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body style="background: #ebf1f5;">
+	<!--头部-->
+	<div class="container-fluid main-header text-center" style="position: relative;">
+		<a href="main.html"><i class="glyphicon glyphicon-chevron-left" style="position: absolute; left: 10px ; top:13px;color:#fff"></i></a>待办事项
+	</div>
+	<!--待办事项-->
+	<div class="container-fluid myTab">
+		<ul id="myTab" class="nav nav-tabs">
+		<li class="active">
+			<a href="#waitjc" data-toggle="tab" class="size-15">待检查(3)</a>
+		</li>
+		<li>
+			<a href="#waitfc" data-toggle="tab" class="size-15">待复查(2)</a>
+		</li>
+		<li>
+			<a href="#waitsh" data-toggle="tab" class="size-15">待审核(1)</a>
+		</li>
+	</ul>
+	</div>
+	
+	<div id="myTabContent" class="tab-content pull-left">
+		<div class="tab-pane fade in active" id="waitjc">
+			<ul>
+				<li class="pull-left">
+					<div class="container">
+						<img class="pull-left" src="images/icon11.png" style="margin-right:8px"/>
+						<div class="pull-left">
+							<h4 class="color-000">虹港石化待检查</h4>
+							<p class="color-666">2016-10-15 09:32</p>
+						</div>
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</li>
+				<li class="pull-left">
+					<div class="container">
+						<img class="pull-left" src="images/icon12.png" style="margin-right:8px"/>
+						<div class="pull-left">
+							<h4 class="color-000">斯尔邦石化待检查</h4>
+							<p class="color-666">2016-10-15 09:32</p>
+						</div>
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</li>
+				<li class="pull-left">
+					<div class="container">
+						<img class="pull-left" src="images/icon13.png" style="margin-right:8px"/>
+						<div class="pull-left">
+							<h4 class="color-000">珍珠河石化待检查</h4>
+							<p class="color-666">2016-10-15 09:32</p>
+						</div>
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="tab-pane fade" id="waitfc">
+			<ul>
+				<li class="pull-left">
+					<div class="container">
+						<img class="pull-left" src="images/icon11.png" style="margin-right:8px"/>
+						<div class="pull-left">
+							<h4 class="color-000">虹港石化待复查</h4>
+							<p class="color-666">2016-10-15 09:32</p>
+						</div>
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</li>
+				<li class="pull-left">
+					<div class="container">
+						<img class="pull-left" src="images/icon12.png" style="margin-right:8px"/>
+						<div class="pull-left">
+							<h4 class="color-000">斯尔邦石化待复查</h4>
+							<p class="color-666">2016-10-15 09:32</p>
+						</div>
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="tab-pane fade" id="waitsh">
+			<ul>
+				<li class="pull-left">
+					<div class="container">
+						<img class="pull-left" src="images/icon11.png" style="margin-right:8px"/>
+						<div class="pull-left">
+							<h4 class="color-000">虹港石化整改指令审核</h4>
+							<p class="color-666">2016-10-15 09:32</p>
+						</div>
+						<i class="glyphicon glyphicon-chevron-right"></i>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
